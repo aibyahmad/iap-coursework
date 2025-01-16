@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Events - AMD Events</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="events-styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="logo">AMD Events</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html" class="active">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="events-page">
+      <h1>All Events</h1>
+
+      <div class="filters-section">
+        <div class="filter-container">
+          <div class="filter-group">
+            <label for="location">Location:</label>
+            <select id="location">
+              <option value="">All Locations</option>
+              <!-- Locations will be populated by JavaScript -->
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="dateFrom">From:</label>
+            <input type="date" id="dateFrom" />
+          </div>
+
+          <div class="filter-group">
+            <label for="dateTo">To:</label>
+            <input type="date" id="dateTo" />
+          </div>
+
+          <button id="applyFilters" class="filter-button">Apply Filters</button>
+          <button id="clearFilters" class="filter-button clear">Clear</button>
+        </div>
+      </div>
+
+      <div class="events-grid">
+        <!-- Events will be populated here by JavaScript -->
+      </div>
+
+      <div class="pagination">
+        <!-- Pagination will be populated by JavaScript -->
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>AMD Events</h3>
+          <p class="footer-description">
+            Creating memorable events and bringing people together through
+            unique experiences.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="settings.html">Settings</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 AMD Events. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="events-script.js"></script>
+    <script src="site-settings.js"></script>
+  </body>
+</html>

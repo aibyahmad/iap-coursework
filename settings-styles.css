@@ -1,0 +1,116 @@
+.settings-page {
+  padding: 120px 2rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.settings-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.settings-container {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-group {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings-group h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.setting-control {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.setting-control label {
+  font-weight: 500;
+  color: #666;
+}
+
+.size-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.size-controls input[type="range"] {
+  flex: 1;
+}
+
+.preview-text {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.header-preview {
+  margin-top: 1rem;
+}
+
+.preview-header {
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.settings-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.save-button,
+.reset-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.save-button {
+  background: #ff6b35;
+  color: white;
+}
+
+.save-button:hover {
+  background: #e85a2c;
+}
+
+.reset-button {
+  background: #666;
+  color: white;
+}
+
+.reset-button:hover {
+  background: #555;
+}
+
+@media (max-width: 768px) {
+  .settings-actions {
+    flex-direction: column;
+  }
+
+  .save-button,
+  .reset-button {
+    width: 100%;
+  }
+}

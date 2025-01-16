@@ -1,0 +1,51 @@
+[
+  {
+    "eventTitle": "winterFestival",
+    "location": "London, UK",
+    "date": "2025-02-05",
+    "description": "Experience the magic of winter at London's premier seasonal celebration. Marvel at intricate ice sculptures crafted by international artists, enjoy live performances from local and international musicians, and indulge in seasonal delicacies from over 50 artisanal food vendors. Features include an ice skating rink, winter workshops, and a spectacular light show every evening. Perfect for families and visitors of all ages.",
+    "displayImageUrl": "https://images.unsplash.com/photo-1520891102758-5d6525023b0e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "eventTitle": "techInnovatorsConference",
+    "location": "Manchester, UK",
+    "date": "2025-03-15",
+    "description": "Join the UK's largest technology innovation conference featuring keynote speeches from Silicon Valley leaders, hands-on workshops with cutting-edge technologies, and networking opportunities with industry pioneers. Explore emerging trends in AI, blockchain, quantum computing, and sustainable tech. Includes interactive demos, startup pitch competitions, and exclusive recruitment opportunities from leading tech companies. Early bird tickets include access to VIP networking events.",
+    "displayImageUrl": "https://images.unsplash.com/photo-1600320261634-78edd477fa1e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "eventTitle": "artInThePark",
+    "location": "Bristol, UK",
+    "date": "2025-04-22",
+    "description": "Immerse yourself in Bristol's largest outdoor art exhibition, featuring over 100 local and international artists. Experience interactive installations, live art creation, and multimedia exhibitions spread across 15 acres of beautiful parkland. Participate in artist-led workshops, watch live performances, and enjoy locally sourced refreshments from gourmet food trucks. Special evening events include illuminated art displays and acoustic performances under the stars.",
+    "displayImageUrl": "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "eventTitle": "jazzOnTheRiver",
+    "location": "Liverpool, UK",
+    "date": "2025-06-10",
+    "description": "Experience an enchanting evening of world-class jazz along Liverpool's historic waterfront. Featuring Grammy-winning artists and emerging talents across three riverside stages, this event combines smooth jazz, fusion, and contemporary performances. Enjoy premium dining options from Michelin-starred chefs, craft cocktails, and exclusive river cruise performances. VIP packages include private viewing areas, meet-and-greet opportunities with performers, and luxury hospitality services.",
+    "displayImageUrl": "https://images.unsplash.com/photo-1507404684477-09c7f690976a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "eventTitle": "globalDanceFestival",
+    "location": "Birmingham, UK",
+    "date": "2025-07-25",
+    "description": "Celebrate cultural diversity through dance at the UK's most inclusive dance festival. Watch spectacular performances from over 50 dance troupes representing traditions from six continents. Participate in interactive dance workshops, from ballet to breakdancing, led by professional instructors. Features include international food courts, cultural craft markets, and children's dance activities. Evening highlights include fusion performances combining different dance styles and a grand finale spectacular.",
+    "displayImageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "eventTitle": "foodTruckFiesta",
+    "location": "Manchester, UK",
+    "date": "2025-03-30",
+    "description": "Embark on a culinary journey with Manchester's biggest food truck festival, featuring over 40 carefully selected vendors serving cuisine from around the world. Experience live cooking demonstrations from celebrity chefs, participate in cooking workshops, and enjoy eating competitions. Kids' zone includes junior chef classes and food science experiments. Evening entertainment features local bands, fire performers, and an outdoor cinema experience with culinary-themed films.",
+    "displayImageUrl": "https://images.unsplash.com/photo-1626186241349-5d5f44407f55?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "eventTitle": "shakespeareInThePark",
+    "location": "Oxford, UK",
+    "date": "2025-08-15",
+    "description": "Experience the magic of Shakespeare under the stars in Oxford's historic botanical gardens. This year's production features a contemporary interpretation of 'A Midsummer Night's Dream' with an award-winning cast and innovative staging. Pre-show activities include theatrical workshops, costume displays, and Renaissance-themed entertainment. Premium tickets include gourmet picnic hampers, priority seating, and exclusive backstage tours. Perfect for theatre enthusiasts and families alike.",
+    "displayImageUrl": "https://images.unsplash.com/photo-1516307365426-bea591f05011?q=80&w=2918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Details - AMD Events</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="event-detail-styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="logo">AMD Events</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="event-detail-page">
+      <button class="back-button" onclick="window.location.href='events.html'">
+        ← Back to Listings
+      </button>
+
+      <div class="event-header">
+        <div class="event-image-container">
+          <img id="eventImage" src="" alt="Event Image" />
+        </div>
+        <div class="event-header-content">
+          <h1 id="eventTitle"></h1>
+          <div class="event-meta">
+            <div class="meta-item">
+              <span class="icon">📍</span>
+              <span id="eventLocation"></span>
+            </div>
+            <div class="meta-item">
+              <span class="icon">📅</span>
+              <span id="eventDate"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event-content-container">
+        <div class="event-description">
+          <h2>About This Event</h2>
+          <p id="eventDescription"></p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>AMD Events</h3>
+          <p class="footer-description">
+            Creating memorable events and bringing people together through
+            unique experiences.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="settings.html">Settings</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 AMD Events. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="event-detail.js"></script>
+    <script src="site-settings.js"></script>
+  </body>
+</html>
